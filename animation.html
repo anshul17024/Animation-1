@@ -1,0 +1,40 @@
+<!-- ANSHUL GAUTAM
+	 IIIT-D
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style>
+		body {
+			padding: 50px;
+		}
+		.box {
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			transition: transform 300ms ease-in-out;
+		}
+		.trigger {
+			width: 200px;
+			height: 200px;
+			border: 20px solid #999;
+			background: #ddd;
+		}
+		.trigger:hover .box {
+			transform: translate(200px,200px) rotate(45deg);
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<br><br><br>
+		<div class="trigger">
+			<div class="box"></div>
+		</div>
+	</center>
+</body>
+</html>
